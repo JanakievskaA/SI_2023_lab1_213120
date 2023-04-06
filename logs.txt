@@ -1,0 +1,37 @@
+C:\Users\ancij\SI_2023_lab1_213120>git log
+commit 45101555c14550ddc137caa64348ebd372c80ed1 (HEAD -> master, origin/master, bug3)
+Author: Anastasija Janakievska <anci.janakievska2022@gmail.com>
+Date:   Thu Apr 6 16:49:38 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit a8c160a430519638e2da642088015270a4e5be5f
+Merge: 003d23c 955f948
+Author: Anastasija Janakievska <anci.janakievska2022@gmail.com>
+Date:   Thu Apr 6 16:51:34 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 955f9486f8124341f8753e6babdc7cb5be55fb98 (origin/bug2, bug2)
+Author: Anastasija Janakievska <anci.janakievska2022@gmail.com>
+Date:   Thu Apr 6 16:48:39 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 003d23c6a42cfcc4c8723c70609bb111740cce89 (origin/bug1, bug1)
+Author: Anastasija Janakievska <anci.janakievska2022@gmail.com>
+Date:   Thu Apr 6 16:47:36 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 32c469a11f8078596ab73d04e82b0c2f54b9efa3
+Author: Anastasija Janakievska <anci.janakievska2022@gmail.com>
+Date:   Thu Apr 6 16:43:43 2023 +0200
+
+    Add java class
+
+commit 0f3206db434f1c2276077460d3c8c5d81fd90af4
+Author: Anastasija Janakievska <anci.janakievska2022@gmail.com>
+Date:   Thu Apr 6 16:42:43 2023 +0200
+
+    Initial commit

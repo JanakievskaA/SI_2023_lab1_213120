@@ -1,0 +1,145 @@
+4. \ancij>mkdir SI_2023_lab1_213120
+   \ancij>cd  SI_2023_lab1_213120
+   \ancij\SI_2023_lab1_213120>git init
+
+5. \ancij\SI_2023_lab1_213120>git remote add origin https://github.com/JanakievskaA/SI_2023_lab1_213120.git
+
+6.\ancij\SI_2023_lab1_213120>notepad README.md
+  \ancij\SI_2023_lab1_213120>git add README.md
+  \ancij\SI_2023_lab1_213120>git commit -m "Initial commit"
+
+7.\ancij\SI_2023_lab1_213120>notepad SILab1.java
+  \ancij\SI_2023_lab1_213120>git add SILab1.java
+  \ancij\SI_2023_lab1_213120>git commit -m "Add java class"
+
+8.\ancij\SI_2023_lab1_213120>git push origin master
+
+9.\ancij\SI_2023_lab1_213120>git branch bug1
+  \ancij\SI_2023_lab1_213120>git branch bug2
+  \ancij\SI_2023_lab1_213120>git branch bug3
+
+10. \ancij\SI_2023_lab1_213120>git checkout bug1
+
+11. \ancij\SI_2023_lab1_213120>notepad SILab1.java
+    \ancij\SI_2023_lab1_213120>git add SILab1.java
+    \ancij\SI_2023_lab1_213120>git commit -m "Fix wrong loop for reading"
+
+12. \ancij\SI_2023_lab1_213120>git checkout bug2
+
+13. \ancij\SI_2023_lab1_213120>notepad SILab1.java
+    \ancij\SI_2023_lab1_213120>git add SILab1.java
+    \ancij\SI_2023_lab1_213120>git commit -m "Fix wrong condition in filterOddNumbers"
+
+14. \ancij\SI_2023_lab1_213120>git checkout bug3
+
+15. \ancij\SI_2023_lab1_213120>notepad SILab1.java
+    \ancij\SI_2023_lab1_213120>git add SILab1.java
+    \ancij\SI_2023_lab1_213120>git commit -m "Fix method sumEvenNumbers"
+
+16. \ancij\SI_2023_lab1_213120>git checkout bug3
+    \ancij\SI_2023_lab1_213120>git push origin bug3
+    \ancij\SI_2023_lab1_213120>git checkout bug2
+    \ancij\SI_2023_lab1_213120>git push origin bug2
+    \ancij\SI_2023_lab1_213120>git checkout bug1
+    \ancij\SI_2023_lab1_213120>git push origin bug1
+
+17. \ancij\SI_2023_lab1_213120>git checkout master
+
+18. \ancij\SI_2023_lab1_213120>git merge bug1
+
+19. \ancij\SI_2023_lab1_213120>git push origin master
+
+20. \ancij\SI_2023_lab1_213120>git merge bug2
+
+21. \ancij\SI_2023_lab1_213120>git push origin master
+
+22. \ancij\SI_2023_lab1_213120>git checkout bug3
+
+23. \ancij\SI_2023_lab1_213120>git rebase master
+
+24. \ancij\SI_2023_lab1_213120>git checkout master
+
+25. \ancij\SI_2023_lab1_213120>gut merge bug3
+
+26. \ancij\SI_2023_lab1_213120>git push origin master
+
+27. 4. \ancij>mkdir SI_2023_lab1_213120
+   \ancij>cd  SI_2023_lab1_213120
+   \ancij\SI_2023_lab1_213120>git init
+
+5. \ancij\SI_2023_lab1_213120>git remote add origin https://github.com/JanakievskaA/SI_2023_lab1_213120.git
+
+6.\ancij\SI_2023_lab1_213120>notepad README.md
+  \ancij\SI_2023_lab1_213120>git add README.md
+  \ancij\SI_2023_lab1_213120>git commit -m "Initial commit"
+
+7.\ancij\SI_2023_lab1_213120>notepad SILab1.java
+  \ancij\SI_2023_lab1_213120>git add SILab1.java
+  \ancij\SI_2023_lab1_213120>git commit -m "Add java class"
+
+8.\ancij\SI_2023_lab1_213120>git push origin master
+
+9.\ancij\SI_2023_lab1_213120>git branch bug1
+  \ancij\SI_2023_lab1_213120>git branch bug2
+  \ancij\SI_2023_lab1_213120>git branch bug3
+
+10. \ancij\SI_2023_lab1_213120>git checkout bug1
+
+11. \ancij\SI_2023_lab1_213120>notepad SILab1.java
+    \ancij\SI_2023_lab1_213120>git add SILab1.java
+    \ancij\SI_2023_lab1_213120>git commit -m "Fix wrong loop for reading"
+
+12. \ancij\SI_2023_lab1_213120>git checkout bug2
+
+13. \ancij\SI_2023_lab1_213120>notepad SILab1.java
+    \ancij\SI_2023_lab1_213120>git add SILab1.java
+    \ancij\SI_2023_lab1_213120>git commit -m "Fix wrong condition in filterOddNumbers"
+
+14. \ancij\SI_2023_lab1_213120>git checkout bug3
+
+15. \ancij\SI_2023_lab1_213120>notepad SILab1.java
+    \ancij\SI_2023_lab1_213120>git add SILab1.java
+    \ancij\SI_2023_lab1_213120>git commit -m "Fix method sumEvenNumbers"
+
+16. \ancij\SI_2023_lab1_213120>git checkout bug3
+    \ancij\SI_2023_lab1_213120>git push origin bug3
+    \ancij\SI_2023_lab1_213120>git checkout bug2
+    \ancij\SI_2023_lab1_213120>git push origin bug2
+    \ancij\SI_2023_lab1_213120>git checkout bug1
+    \ancij\SI_2023_lab1_213120>git push origin bug1
+
+17. \ancij\SI_2023_lab1_213120>git checkout master
+
+18. \ancij\SI_2023_lab1_213120>git merge bug1
+
+19. \ancij\SI_2023_lab1_213120>git push origin master
+
+20. \ancij\SI_2023_lab1_213120>git merge bug2
+
+21. \ancij\SI_2023_lab1_213120>git push origin master
+
+22. \ancij\SI_2023_lab1_213120>git checkout bug3
+
+23. \ancij\SI_2023_lab1_213120>git rebase master
+
+24. \ancij\SI_2023_lab1_213120>git checkout master
+
+25. \ancij\SI_2023_lab1_213120>gut merge bug3
+
+26. \ancij\SI_2023_lab1_213120>git push origin master
+
+27. \ancij\SI_2023_lab1_213120>notepad 213120.txt
+    \ancij\SI_2023_lab1_213120>git add 213120.txt
+    \ancij\SI_2023_lab1_213120>notepad logs.txt
+    \ancij\SI_2023_lab1_213120>git add logs.txt
+    \ancij\SI_2023_lab1_213120>git commit -m "Final commit"
+
+28. git push origin master
+
+
+
+
+
+  
+
+
